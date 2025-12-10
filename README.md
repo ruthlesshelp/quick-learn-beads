@@ -89,24 +89,20 @@ You are working in a repository that uses Beads via the bd CLI for task and depe
 
 Explain to the Copilot agent what the first task is all about.
 
-```
-Now that the workspace is set up with Beads, I would like to first explain the "Spec from Kata Description" task before you get started.
-
-You are my spec engineer.
-
-We’ll convert the Kata Description `docs/KATA_DESCRIPTION.md` into a formal specification for spec‑driven development.
-
-Save the spec in a separate `docs/SPEC.md` file.
-
-The spec must be unambiguous, testable, and organized to match widely-adopted product requirements document (PRD) and software engineering practices.
-
-Maintain requirement IDs and cross‑references for traceability. If things are ambiguous, list concrete clarification questions in a separate `docs/CLARIFICATION_QUESTIONS.md`.
-```
+> Now that the workspace is set up with Beads, I would like to first explain the "Spec from Kata Description" task before you get started.
+> 
+> You are my spec engineer.
+> 
+> We’ll convert the Kata Description `docs/KATA_DESCRIPTION.md` into a formal specification for spec‑driven development.
+> 
+> Save the spec in a separate `docs/SPEC.md` file.
+> 
+> The spec must be unambiguous, testable, and organized to match widely-adopted product requirements document (PRD) and software engineering practices.
+> 
+> Maintain requirement IDs and cross‑references for traceability. If things are ambiguous, list concrete clarification questions in a separate `docs/CLARIFICATION_QUESTIONS.md`.
 
 ## Tackle The Next Priority Task
 
 Explain to the Copilot agent that it should _tackles the next priority task_.
 
-```
-tackle the next priority task
-```
+> tackle the next priority task
