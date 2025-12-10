@@ -78,12 +78,10 @@ bd create "Spec from Kata Description" -p 1 -t task
 
 Using the VS Code GitHub Copilot agent mode, describe what you want you want the Copilot agent to do.
 
-```
-You are working in a repository that uses Beads via the bd CLI for task and dependency tracking.
-- When proposing plans, create/update issues with bd create, bd edit, bd dep add, and show bd list before doing work.
-- Use bd close for done items and keep dependencies accurate.
-- Prefer bd dep tree <id> to decide the next unblocked item.
-```
+> You are working in a repository that uses Beads via the bd CLI for task and dependency tracking.
+> - When proposing plans, create/update issues with bd create, bd edit, bd dep add, and show bd list before doing work.
+> - Use bd close for done items and keep dependencies accurate.
+> - Prefer bd dep tree <id> to decide the next unblocked item.
 
 ## Explain the First Task
 
