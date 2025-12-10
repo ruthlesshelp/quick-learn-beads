@@ -24,9 +24,7 @@ bd --version
 
 returns something like ...
 
-```zsh
-bd version 0.29.0 (c9eeecf0)
-```
+> bd version 0.29.0 (c9eeecf0)
 
 ## Git is a requirement
 
@@ -40,12 +38,10 @@ git status
 
 should return something like ...
 
-```zsh
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-```
+> On branch main
+> Your branch is up to date with 'origin/main'.
+> 
+> nothing to commit, working tree clean
 
 If NOT, you will need to initialize you project as a Git repository. More info [here](https://kbroman.org/github_tutorial/pages/init.html)
 
