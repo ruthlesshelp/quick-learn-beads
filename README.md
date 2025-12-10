@@ -5,6 +5,8 @@ Learn more:
 * https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a
 * https://steve-yegge.medium.com/beads-best-practices-2db636b9760c
 
+NOTE: For this lesson, we start with Guy Royse's [Vending Machine Kata](https://github.com/guyroyse/vending-machine-kata/blob/master/README.md) description to define a vision and purpose for this project.
+
 # Installation Quick Start
 
 This is an intentionally abbreviated TL;DR just to illustrate how to get started. For complete instructions, please refer to Steve Yegge's GitHub repository and the [Installation](https://github.com/steveyegge/beads?tab=readme-ov-file#installation) and [Quick Start](https://github.com/steveyegge/beads?tab=readme-ov-file#quick-start) sections.
@@ -85,18 +87,18 @@ Explain to the Copilot agent what the first task is all about.
 
 > Now that the workspace is set up with Beads, I would like to first explain the "Spec from Kata Description" task before you get started.
 > 
-> You are my spec engineer.
+> Note that you are my software engineer, and you use `.github/copilot-instructions.md` to guide you.
 > 
-> We’ll convert the Kata Description `docs/KATA_DESCRIPTION.md` into a formal specification for spec‑driven development.
+> For the first task, read the Kata Description `docs/KATA_DESCRIPTION.md` file and generate a formal specification for spec‑driven development.
 > 
-> Save the spec in a separate `docs/SPEC.md` file.
+> Save that spec in a new `docs/SPEC.md` file.
 > 
 > The spec must be unambiguous, testable, and organized to match widely-adopted product requirements document (PRD) and software engineering practices.
 > 
-> Maintain requirement IDs and cross‑references for traceability. If things are ambiguous, list concrete clarification questions in a separate `docs/CLARIFICATION_QUESTIONS.md`.
+> Maintain requirement IDs and cross‑references for traceability. If things are ambiguous, list concrete clarification questions in a separate `docs/CLARIFYING_QUESTIONS.md`.
 
 ## Tackle The Next Priority Task
 
-Explain to the Copilot agent that it should _tackles the next priority task_.
+Explain to the Copilot agent that it should _tackle the next priority task_.
 
 > tackle the next priority task
