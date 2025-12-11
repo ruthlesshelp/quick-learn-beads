@@ -51,6 +51,8 @@ If NOT, you will need to initialize you project as a Git repository. More info [
 
 "Beads is designed for AI coding agents to use on your behalf."
 
+### For Humans
+
 You (the human) run the initialization once to get things started.
 
 ```zsh
@@ -59,6 +61,14 @@ bd init
 
 Read about the files created by `bd init` here:
 https://github.com/steveyegge/beads?tab=readme-ov-file#files-created-by-bd-init
+
+### For AI Agents
+
+The AI Agents need you to run the *bd quickstart* command to get things started.
+
+```zsh
+bd quickstart
+```
 
 # Start the Project Work
 
