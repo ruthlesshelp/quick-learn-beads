@@ -26,7 +26,12 @@ bd --version
 
 returns something like ...
 
-> bd version 0.29.0 (c9eeecf0)
+> bd version 0.46.0 (812f4e52)
+
+### Upgrade Regularly and Do Daily Hygiene
+> Beads gets a lot of bug fixes and its quality is improving fast. Make sure you stay on top of releases, and upgrade at least every week or two.
+> 
+> You can now `bd upgrade` to upgrade. Run `bd doctor [--fix]` periodically.
 
 ## Git is a requirement
 
@@ -90,6 +95,7 @@ Using the VS Code GitHub Copilot agent mode, describe what you want you want the
 > - When proposing plans, create/update issues with bd create, bd edit, bd dep add, and show bd list before doing work.
 > - Use bd close for done items and keep dependencies accurate.
 > - Prefer bd dep tree <id> to decide the next unblocked item.
+> Don't start working yet. Just explain your understanding of the workspace.
 
 ## Explain the First Task
 
@@ -111,4 +117,4 @@ Explain to the Copilot agent what the first task is all about.
 
 Explain to the Copilot agent that it should _tackle the next priority task_.
 
-> tackle the next priority task
+> Tackle the next priority task.
